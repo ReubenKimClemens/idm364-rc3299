@@ -10,4 +10,7 @@ const config = {
 	}
 };
 
-export default config;
+export default defineConfig({
+	plugins: [sveltekit()],
+	envPrefix: 'PUBLIC_'
+});
